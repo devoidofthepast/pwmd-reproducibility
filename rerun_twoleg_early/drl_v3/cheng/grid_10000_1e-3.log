@@ -1,0 +1,7 @@
+trained (0, 0, 5999.567392099998, 0.6126473437335471)
+trained (0, 2, 6024.830724900006, 0.595891620209475)
+trained (0, 1, 6074.44062810007, 0.6167851606350566)
+trained (0, 3, 5551.550618199981, 0.6849861749670264)
+trained (0, 4, 5782.606810300029, 0.48635047323068237)
+trained (0, 5, 5736.676059199963, 0.256866723896496)
+[('E:\\codex_experiments\\Playground\\pgnd_b_resubmit_20261105\\rerun_twoleg_early\\drl_v3\\cheng\\grid_10000_1e-3\\run0', 0, 0.5813305491568383), ('E:\\codex_experiments\\Playground\\pgnd_b_resubmit_20261105\\rerun_twoleg_early\\drl_v3\\cheng\\grid_10000_1e-3\\run0', 1, 0.5790880419094458), ('E:\\codex_experiments\\Playground\\pgnd_b_resubmit_20261105\\rerun_twoleg_early\\drl_v3\\cheng\\grid_10000_1e-3\\run0', 2, 0.56916886029441), ('E:\\codex_experiments\\Playground\\pgnd_b_resubmit_20261105\\rerun_twoleg_early\\drl_v3\\cheng\\grid_10000_1e-3\\run0', 3, 0.6416213103520325), ('E:\\codex_experiments\\Playground\\pgnd_b_resubmit_20261105\\rerun_twoleg_early\\drl_v3\\cheng\\grid_10000_1e-3\\run0', 4, 0.49955855346800393), ('E:\\codex_experiments\\Playground\\pgnd_b_resubmit_20261105\\rerun_twoleg_early\\drl_v3\\cheng\\grid_10000_1e-3\\run0', 5, 0.2953194650817239)]

@@ -1,0 +1,21 @@
+\begin{table*}
+\centering
+\begin{threeparttable}
+\caption{Comparison with rollout over all candidates, with event outcomes known to the simulator on the synthetic test set.}
+\label{tab:v9-reference}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lrrrrr@{}}
+\toprule
+Method & Mean $V$ & $\Delta$ vs G-ECT & w/t/l vs G-ECT & Rollouts per case & Accepted per case \\
+\midrule
+G-ECT & 0.3817 & -- & -- & -- & -- \\
+\pgnd{} & 0.3145 & +17.60\%+ & 448/32/0 & 123 & 2.8 \\
+Rollout over all candidates & 0.3021 & +20.84\%+ & 449/31/0 & 660 & -- \\
+\bottomrule
+\end{tabular*}
+\begin{tablenotes}\footnotesize
+\item 480 cases. Against rollout over all candidates, \pgnd{} gives $\Delta=-4.10\%$ (w/t/l 106/46/328, $p<0.001$).
+\end{tablenotes}
+\end{threeparttable}
+\end{table*}

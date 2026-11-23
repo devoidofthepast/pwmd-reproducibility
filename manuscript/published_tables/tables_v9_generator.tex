@@ -1,0 +1,26 @@
+\begin{table*}
+\centering
+\begin{threeparttable}
+\caption{Parameter settings of the instance generator.}
+\label{tab:v9-generator}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabularx}{\textwidth}{@{}l>{\raggedright\arraybackslash}X@{}}
+\toprule
+Parameter & Value \\
+\midrule
+Jobs and operations per job & Synthetic: 10 jobs, U\{3,5\}; larger: 20 jobs, U\{5,8\}; Mk1 and Edata7: production cores of the benchmark instances \\
+Machines, AGVs, and path nodes & Synthetic: 5, 2, 10; larger: 10, 5, 25; Mk1 and Edata7: machines of the core, 3 AGVs, 15 nodes \\
+Eligible machines per operation & U\{1, $|\mathcal{M}|-1$\} (synthetic and larger) \\
+Processing time & U\{3,30\} on each eligible machine (synthetic and larger) \\
+Machine energy rate & U(0.8,\,1.6) \\
+Due date & Sum of the minimum processing times of the job plus U\{20,80\} \\
+AGV speed and energy rate & Three types in turn: (2.0, 1.20), (0.8, 0.80), (1.3, 1.00) \\
+Path edges & Chain edges with lengths 10, 11, 12, \dots{} and shortcut edges of length 12; capacity 2 and blockage probability 0.01, except one bottleneck edge with capacity 1 and blockage probability 0.05 (synthetic and larger) \\
+Event times and targets & Time U\{5,120\} for every event; target drawn uniformly from the entities of the matching class; a recovery follows its breakdown by the scripted offset \\
+Events, moderate setting (duration, severity) & New job (0, 0.3); machine breakdown (10, 0.7) and recovery after 10; route branch (0, 0.5); quality rework (8, 0.6); path blockage (12, 0.8); AGV failure (15, 0.7); congestion spike (20, 0.6) \\
+Additional events, severe setting & New job (0, 0.5); machine breakdown (18, 0.9) and recovery after 24; path blockage (20, 0.9); AGV failure (18, 0.8); congestion spike (30, 0.9); route branch (0, 0.7); quality rework (12, 0.8) \\
+\bottomrule
+\end{tabularx}
+\end{threeparttable}
+\end{table*}

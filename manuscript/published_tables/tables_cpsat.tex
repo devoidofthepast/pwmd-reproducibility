@@ -1,0 +1,26 @@
+\begin{table*}
+\centering
+\begin{threeparttable}
+\caption{Results of the CP-SAT validation.}
+\label{tab:cpsat}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llrrrrrr@{}}
+\toprule
+Objective & Events & Cases & Operations & Optimal & Gap to bound (\%) & Time (s) & Feasible and equal \\
+\midrule
+Makespan & Moderate & 10 & 14--20 & 10 & 0.00 & 22.9 & 10 \\
+ & Severe & 10 & 15--21 & 10 & 0.00 & 18.6 & 10 \\
+Tardiness & Moderate & 10 & 14--20 & 7 & 7.99 & 124.0 & 10 \\
+ & Severe & 10 & 15--21 & 8 & 4.34 & 111.2 & 10 \\
+Energy & Moderate & 10 & 14--20 & 10 & 0.00 & 22.6 & 10 \\
+ & Severe & 10 & 15--21 & 10 & 0.00 & 12.8 & 10 \\
+\midrule
+All & & 60 & 14--21 & 55 & 2.05 & 52.0 & 60 \\
+\bottomrule
+\end{tabular*}
+\begin{tablenotes}\footnotesize
+\item Seeds 400--409, first four jobs of each instance, time limit 300\,s with 8 workers. Gap to bound and time are means over the cases; the gap is the relative difference between the best objective and the lower bound reported by CP-SAT. The last column counts the schedules that are feasible in the simulator and whose recomputed objective equals that of CP-SAT.
+\end{tablenotes}
+\end{threeparttable}
+\end{table*}

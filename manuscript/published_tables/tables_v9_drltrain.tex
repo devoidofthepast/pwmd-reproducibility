@@ -1,0 +1,19 @@
+\begin{table*}
+\centering
+\begin{threeparttable}
+\caption{Training settings of the DRL-based methods.}
+\label{tab:v9-drltrain}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabularx}{\textwidth}{@{}l>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}X@{}}
+\toprule
+Method & Training & Model selection \\
+\midrule
+DANIEL & PPO, 1{,}000 iterations $\times$ 20 episodes, learning rate $3\times10^{-4}$, $\gamma=1.0$, $\lambda=0.98$, clip 0.2, 4 epochs, minibatch 1{,}024 & Every 50 iterations; iteration 1{,}000 selected \\
+DRL-S & PPO, 1{,}000 iterations $\times$ 20 episodes, learning rate $2\times10^{-4}$, $\gamma=1.0$, $\lambda=1.0$, clip 0.2, 3 epochs, minibatch 512 & Every 50 iterations; iteration 350 selected \\
+HGT & PPO, 100 iterations $\times$ 10 episodes, peak learning rate $5\times10^{-5}$ with warm-up, weight decay $10^{-2}$, $\gamma=0.9$, clip 0.15, 3 epochs, minibatch 64 & Every 10 iterations; iteration 30 selected \\
+DQN & One model per preference, 3{,}000 episodes, learning rate $10^{-4}$ selected from $\{3{,}000, 10{,}000\}$ episodes $\times$ $\{10^{-4},10^{-3}\}$, 3 independent runs & Best of the 3 runs for each preference \\
+\bottomrule
+\end{tabularx}
+\end{threeparttable}
+\end{table*}

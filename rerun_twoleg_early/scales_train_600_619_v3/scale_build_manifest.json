@@ -1,0 +1,55 @@
+{
+  "protocol": "control-decision-objective-contract-v1",
+  "diagnostic_only": false,
+  "seeds": [
+    600,
+    601,
+    602,
+    603,
+    604,
+    605,
+    606,
+    607,
+    608,
+    609,
+    610,
+    611,
+    612,
+    613,
+    614,
+    615,
+    616,
+    617,
+    618,
+    619
+  ],
+  "levels": [
+    "L4",
+    "L5"
+  ],
+  "modes": [
+    "raw",
+    "realized"
+  ],
+  "preference_indexes": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "sample_count": 480,
+  "objective_names": [
+    "makespan",
+    "tardiness",
+    "energy",
+    "route_pressure",
+    "event_exposure_pressure"
+  ],
+  "quantile": 0.95,
+  "quantile_method": "linear",
+  "source_csv": "E:\\codex_experiments\\Playground\\pgnd_b_resubmit_20261105\\rerun_twoleg_early\\scales_train_600_619_v3\\scale_source_rows.csv",
+  "source_sha256": "5459298b474e2f6c0a447c516004f164f18fde2620f83435affb06907721171c",
+  "scale_json": "E:\\codex_experiments\\Playground\\pgnd_b_resubmit_20261105\\rerun_twoleg_early\\scales_train_600_619_v3\\objective_scales.json"
+}

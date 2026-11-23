@@ -1,0 +1,51 @@
+\begin{table*}
+\centering
+\begin{threeparttable}
+\caption{Results of the ablation experiment.}
+\label{tab:v9-ablation}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llrrrrrr@{}}
+\toprule
+Set & Variant & Cases & Mean $V$ & $\Delta$ vs G-ECT & w/t/l vs G-ECT & $\Delta$ of \pgnd{} & w/t/l of \pgnd{} \\
+\midrule
+Synthetic & \pgnd{} & 480 & 0.3649 & +16.83\%+ & 446/3/31 & -- & -- \\
+ & G-ECT & 480 & 0.4387 & -- & -- & -- & -- \\
+ & w/o certificate & 480 & 0.4680 & $-$6.69\%$-$ & 94/0/386 & +22.04\%+ & 433/1/46 \\
+ & Gated w/o certificate & 480 & 0.4397 & $-$0.23\%* & 147/2/331 & +17.01\%+ & 418/2/60 \\
+ & Random proposer & 480 & 0.3792 & +13.56\%+ & 423/4/53 & +3.78\%+ & 303/8/169 \\
+ & ECT proposer & 480 & 0.3982 & +9.22\%+ & 409/8/63 & +8.38\%+ & 313/4/163 \\
+ & Cost proposer & 480 & 0.3783 & +13.75\%+ & 426/10/44 & +3.56\%+ & 271/11/198 \\
+ & Ridge proposer & 480 & 0.3918 & +10.69\%+ & 415/6/59 & +6.87\%+ & 290/6/184 \\
+ & Context-only & 480 & 0.3788 & +13.66\%+ & 413/10/57 & +3.67\%+ & 295/8/177 \\
+ & w/o route-event & 480 & 0.3674 & +16.25\%+ & 443/3/34 & +0.69\%* & 224/19/237 \\
+\midrule
+Mk1 & \pgnd{} & 240 & 0.3204 & +11.06\%+ & 211/3/26 & -- & -- \\
+ & G-ECT & 240 & 0.3602 & -- & -- & -- & -- \\
+ & w/o certificate & 240 & 0.4164 & $-$15.61\%$-$ & 34/3/203 & +23.06\%+ & 221/4/15 \\
+ & Gated w/o certificate & 240 & 0.3801 & $-$5.52\%$-$ & 68/4/168 & +15.71\%+ & 209/4/27 \\
+ & Random proposer & 240 & 0.3289 & +8.68\%+ & 206/4/30 & +2.60\%* & 128/5/107 \\
+ & ECT proposer & 240 & 0.3364 & +6.60\%+ & 199/8/33 & +4.77\%+ & 146/4/90 \\
+ & Cost proposer & 240 & 0.3363 & +6.65\%+ & 196/5/39 & +4.72\%+ & 136/18/86 \\
+\midrule
+Edata7 & \pgnd{} & 240 & 0.7146 & +9.88\%+ & 203/12/25 & -- & -- \\
+ & G-ECT & 240 & 0.7929 & -- & -- & -- & -- \\
+ & w/o certificate & 240 & 0.8617 & $-$8.68\%$-$ & 111/2/127 & +17.07\%+ & 154/15/71 \\
+ & Gated w/o certificate & 240 & 0.8104 & $-$2.21\%$-$ & 118/6/116 & +11.83\%+ & 159/11/70 \\
+ & Random proposer & 240 & 0.7364 & +7.12\%+ & 194/16/30 & +2.97\%+ & 135/10/95 \\
+ & ECT proposer & 240 & 0.7452 & +6.01\%+ & 191/19/30 & +4.12\%+ & 149/16/75 \\
+ & Cost proposer & 240 & 0.7308 & +7.83\%+ & 205/12/23 & +2.22\%+ & 139/23/78 \\
+\midrule
+Larger & \pgnd{} & 240 & 0.8909 & +11.65\%+ & 215/9/16 & -- & -- \\
+ & G-ECT & 240 & 1.0084 & -- & -- & -- & -- \\
+ & w/o certificate & 240 & 1.3401 & $-$32.90\%$-$ & 28/7/205 & +33.52\%+ & 208/9/23 \\
+ & Gated w/o certificate & 240 & 1.2960 & $-$28.52\%$-$ & 30/7/203 & +31.26\%+ & 209/9/22 \\
+ & Random proposer & 240 & 0.9122 & +9.54\%+ & 212/8/20 & +2.33\%+ & 135/11/94 \\
+ & Cost proposer & 240 & 0.9098 & +9.78\%+ & 216/7/17 & +2.07\%+ & 149/15/76 \\
+\bottomrule
+\end{tabular*}
+\begin{tablenotes}\footnotesize
+\item $\Delta$ vs G-ECT is the improvement of the variant over the base rule, and $\Delta$ of \pgnd{} is the improvement of \pgnd{} over the variant. The markers follow Table~\ref{tab:v9-rules}, with the first method of each comparison as the reference.
+\end{tablenotes}
+\end{threeparttable}
+\end{table*}

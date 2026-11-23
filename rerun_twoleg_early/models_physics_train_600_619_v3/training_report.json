@@ -1,0 +1,79 @@
+{
+  "protocol": "PGND-V4",
+  "train_seeds": [
+    600,
+    601,
+    602,
+    603,
+    604,
+    605,
+    606,
+    607,
+    608,
+    609,
+    610,
+    611,
+    612,
+    613,
+    614,
+    615,
+    616,
+    617,
+    618,
+    619
+  ],
+  "groups": 19968,
+  "rows": 303749,
+  "epochs": 120,
+  "groups_per_batch": 64,
+  "random_states": [
+    320,
+    321,
+    322,
+    323,
+    324
+  ],
+  "cuda": true,
+  "objective_names": [
+    "makespan",
+    "tardiness",
+    "energy",
+    "route_pressure",
+    "event_exposure_pressure"
+  ],
+  "objective_scales_sha256": "851ef496204dd3b81291d2864b64da634c9eb8481908b8274bf6dd3603713e52",
+  "objective_scale_source_sha256": "5459298b474e2f6c0a447c516004f164f18fde2620f83435affb06907721171c",
+  "label_manifest_sha256": "8d5707add4d6eb8360cdea3a8845624ddbcf8d8c71da9363b4baaefb29b7da3b",
+  "members": [
+    {
+      "random_state": 320,
+      "final_loss": 0.8859971326131088,
+      "wall_seconds": 455.5379984000465,
+      "model_path": "models_physics_train_600_619_v3\\pgnd_v4_member_320.pt"
+    },
+    {
+      "random_state": 321,
+      "final_loss": 0.89064943866852,
+      "wall_seconds": 748.5636600001017,
+      "model_path": "models_physics_train_600_619_v3\\pgnd_v4_member_321.pt"
+    },
+    {
+      "random_state": 322,
+      "final_loss": 0.8964049898279018,
+      "wall_seconds": 955.9411090000067,
+      "model_path": "models_physics_train_600_619_v3\\pgnd_v4_member_322.pt"
+    },
+    {
+      "random_state": 323,
+      "final_loss": 0.8886461972426145,
+      "wall_seconds": 673.4534893999808,
+      "model_path": "models_physics_train_600_619_v3\\pgnd_v4_member_323.pt"
+    },
+    {
+      "random_state": 324,
+      "final_loss": 0.8921755330684857,
+      "wall_seconds": 575.2032431000844,
+      "model_path": "models_physics_train_600_619_v3\\pgnd_v4_member_324.pt"
+    }
+  ]
+}

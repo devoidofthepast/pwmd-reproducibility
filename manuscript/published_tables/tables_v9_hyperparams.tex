@@ -1,0 +1,25 @@
+\begin{table*}
+\centering
+\begin{threeparttable}
+\caption{Parameter settings of \pgnd{}.}
+\label{tab:v9-hyperparams}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabularx}{\textwidth}{@{}l>{\raggedright\arraybackslash}X@{}}
+\toprule
+Parameter & Value \\
+\midrule
+Network & Group-context MLP, hidden width 96, six regime-specific heads \\
+Ensemble size & 5 members, random states 320--324 \\
+Training data & Seeds 600--619 with randomized events, 19{,}968 candidate groups, 303{,}749 rows \\
+Epochs and batch size & 120 epochs, 64 groups per batch \\
+Optimizer & AdamW, learning rate $10^{-3}$, weight decay $10^{-4}$ \\
+Final training loss & 0.886--0.896 over the five members \\
+Objective scales & 0.95 quantile of each objective over the 480 training schedules of the base rule \\
+Nominations per decision & $k=2$ \\
+Event scenarios per certified decision & $K=8$ \\
+Acceptance margin & $M=0.02$ \\
+\bottomrule
+\end{tabularx}
+\end{threeparttable}
+\end{table*}

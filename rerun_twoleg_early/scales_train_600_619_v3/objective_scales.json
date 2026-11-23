@@ -1,0 +1,21 @@
+{
+  "objective_names": [
+    "makespan",
+    "tardiness",
+    "energy",
+    "route_pressure",
+    "event_exposure_pressure"
+  ],
+  "values": {
+    "makespan": 935.3499999999997,
+    "tardiness": 6287.15,
+    "energy": 2155.1666499999997,
+    "route_pressure": 2123.7,
+    "event_exposure_pressure": 175.31649999999985
+  },
+  "quantile": 0.95,
+  "quantile_method": "linear",
+  "sample_count": 480,
+  "source": "E:\\codex_experiments\\Playground\\pgnd_b_resubmit_20261105\\rerun_twoleg_early\\scales_train_600_619_v3\\scale_source_rows.csv",
+  "source_sha256": "5459298b474e2f6c0a447c516004f164f18fde2620f83435affb06907721171c"
+}

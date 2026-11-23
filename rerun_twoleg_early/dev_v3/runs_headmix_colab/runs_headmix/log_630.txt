@@ -1,0 +1,55 @@
+Traceback (most recent call last):
+  File "/content/pkg/rerun_twoleg_early/dev_v3/dev_headmix.py", line 100, in <module>
+    main()
+    ~~~~^^
+  File "/content/pkg/rerun_twoleg_early/dev_v3/dev_headmix.py", line 91, in main
+    s, info = run(case, pi, pref)
+              ~~~^^^^^^^^^^^^^^^^
+  File "/content/pkg/rerun_twoleg_early/dev_v3/dev_headmix.py", line 76, in <lambda>
+    ("pgnd-argmax", lambda case, pi, pref: scen(case, pi, pref, neural_topk_selector(members, k))),
+                                           ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/pkg/rerun_twoleg_early/dev_v3/dev_headmix.py", line 70, in scen
+    return decode_scen3(true=case["true"], raw=case["raw"], preference=pref, level=case["level"], seed=case["seed"], mode=case["mode"],
+                        preference_id=_explicit_preference_id(pi, pref), selector=selector, scales=sc, clock="strict", margin=M,
+                        k=K, template=T.template_for("syn", case["level"]))
+  File "scenario_cert3.decode_scen3", line 132, in decode_scen3
+    state = _RolloutState(
+    
+  File "scenario_cert3.decode_scen3", line 111, in value
+  File "scenario_cert3.decode_scen3", line 117, in value1
+    from su_modfjsp_ha_pc.joint_operation_machine_value_policy import (
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/content/pkg/rerun_twoleg_early/src/su_modfjsp_ha_pc/path_aware_selection_attention_policy.py", line 741, in _complete_schedule_after_forced_path_aware_joint_action
+    selected = _best_preference_action(
+        instance=instance,
+    ...<6 lines>...
+        edge_reservations=local_edge_reservations,
+    )
+  File "/content/pkg/rerun_twoleg_early/src/su_modfjsp_ha_pc/path_conflict_neural_dataset.py", line 1534, in _best_preference_action
+    transports = _preference_transport_candidates(
+        instance=instance,
+    ...<5 lines>...
+        earliest_job_ready=job_ready[job.job_id],
+    )
+  File "/content/pkg/rerun_twoleg_early/src/su_modfjsp_ha_pc/path_conflict_neural_dataset.py", line 1617, in _preference_transport_candidates
+    _tl = two_leg_early_schedule(instance, agv, origin, pickup, route, agv_available[agv.agv_id],
+                                 earliest_job_ready, edge_reservations)
+  File "/content/pkg/rerun_twoleg_early/src/su_modfjsp_ha_pc/rules.py", line 805, in two_leg_early_schedule
+    tlb = _first_transport_feasible_start(
+        earliest_start=loaded_earliest, travel_time=tl, route_edges=route[n_empty:], agv_id=agv.agv_id,
+        instance=instance, edge_reservations=edge_reservations, check_capacity=True, check_events=True)
+  File "/content/pkg/rerun_twoleg_early/src/su_modfjsp_ha_pc/rules.py", line 428, in _first_transport_feasible_start
+    capacity_causes = _capacity_conflicts(
+        start,
+    ...<3 lines>...
+        edge_reservations,
+    )
+  File "/content/pkg/rerun_twoleg_early/src/su_modfjsp_ha_pc/rules.py", line 920, in _capacity_conflicts
+    return (_capacity_conflicts_fast if _FAST else _capacity_conflicts_ref)(start, travel_time, route_edges, path_edges, edge_reservations)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/pkg/rerun_twoleg_early/src/su_modfjsp_ha_pc/rules.py", line 896, in _capacity_conflicts_fast
+    return tuple(rows)
+KeyboardInterrupt

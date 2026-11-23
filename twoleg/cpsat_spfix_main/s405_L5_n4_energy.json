@@ -1,0 +1,35 @@
+{
+ "seed": 405,
+ "level": "L5",
+ "n_jobs": 4,
+ "objective": "energy",
+ "pref_index": 3,
+ "lookahead": {
+  "value": 590.466,
+  "feasible": 1.0,
+  "wall_s": 0.01,
+  "route_bad": 0,
+  "timing_bad": 0
+ },
+ "pgnd": {
+  "value": 590.466,
+  "feasible": 1.0,
+  "wall_s": 0.6,
+  "route_bad": 0,
+  "timing_bad": 0
+ },
+ "cpsat": {
+  "status": "OPTIMAL",
+  "wall_s": 12.92,
+  "n_ops": 20,
+  "horizon": 3706,
+  "objective": 494.929,
+  "bound": 494.929,
+  "sim_value": 494.929,
+  "sim_feasible": 1.0,
+  "violations": {},
+  "route_bad": 0,
+  "timing_bad": 0,
+  "route_msgs": []
+ }
+}

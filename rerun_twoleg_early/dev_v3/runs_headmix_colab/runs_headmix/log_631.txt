@@ -1,0 +1,50 @@
+Traceback (most recent call last):
+  File "/content/pkg/rerun_twoleg_early/dev_v3/dev_headmix.py", line 100, in <module>
+    main()
+    ~~~~^^
+  File "/content/pkg/rerun_twoleg_early/dev_v3/dev_headmix.py", line 91, in main
+    s, info = run(case, pi, pref)
+              ~~~^^^^^^^^^^^^^^^^
+  File "/content/pkg/rerun_twoleg_early/dev_v3/dev_headmix.py", line 77, in <lambda>
+    ("pgnd-mix", lambda case, pi, pref: scen(case, pi, pref, mix_topk_selector(members, k, pref)))]
+                                        ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/pkg/rerun_twoleg_early/dev_v3/dev_headmix.py", line 70, in scen
+    return decode_scen3(true=case["true"], raw=case["raw"], preference=pref, level=case["level"], seed=case["seed"], mode=case["mode"],
+                        preference_id=_explicit_preference_id(pi, pref), selector=selector, scales=sc, clock="strict", margin=M,
+                        k=K, template=T.template_for("syn", case["level"]))
+  File "scenario_cert3.decode_scen3", line 88, in decode_scen3
+    edge_reservations)  # rerun v1: empty leg + loaded leg, timed against the true events
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/pkg/rerun_twoleg_early/dev_v3/dev_headmix.py", line 41, in select
+    heads = [np.asarray(predict_v4_model(a, (dataclasses.replace(group, regime=r),))[0], dtype=float) for r in range(1, 6)]
+                        ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/pkg/rerun_twoleg_early/src/su_modfjsp_ha_pc/pgnd_v4_model.py", line 237, in predict_v4_model
+    predictions = predict_v4_details(
+                  ~~~~~~~~~~~~~~~~~~^
+        artifact,
+        ^^^^^^^^^
+    ...<2 lines>...
+        device=device,
+        ^^^^^^^^^^^^^^
+    ).normalized_advantage
+    ^
+  File "/content/pkg/rerun_twoleg_early/src/su_modfjsp_ha_pc/pgnd_v4_model.py", line 270, in predict_v4_details
+    normalized, positive, quantile, embedding = artifact.model(
+                                                ~~~~~~~~~~~~~~^
+        tensors["features"], tensors["group_index"], tensors["regime"], len(batch)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/content/pkg/rerun_twoleg_early/src/su_modfjsp_ha_pc/pgnd_v4_model.py", line 326, in forward
+    torch.cat(
+    ~~~~~~~~~^
+        (embedding, means[group_index], maxima[group_index], self.regime_embedding(regime)), dim=1
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+KeyboardInterrupt

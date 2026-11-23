@@ -1,0 +1,11 @@
+trained (0, 3, 2969.3813476000214, 0.6766776991468387)
+trained (0, 0, 2973.7710908999434, 0.6192191795635402)
+trained (0, 1, 3003.620450599934, 0.636863206286417)
+trained (0, 2, 3053.9598926000763, 0.607545549255227)
+trained (0, 0, 3128.0994760000613, 0.6192191795635402)
+trained (0, 1, 3142.6437926000217, 0.636863206286417)
+trained (0, 2, 3176.708246199996, 0.607545549255227)
+trained (0, 3, 2729.3986766000744, 0.6766776991468387)
+trained (0, 4, 2832.571101000067, 0.46448297782172626)
+trained (0, 5, 2867.845456399955, 0.2383473603454326)
+[('E:\\codex_experiments\\Playground\\pgnd_b_resubmit_20261105\\rerun_twoleg_early\\drl_v3\\cheng\\grid_10000_1e-4\\run0', 0, 0.6086872534331883), ('E:\\codex_experiments\\Playground\\pgnd_b_resubmit_20261105\\rerun_twoleg_early\\drl_v3\\cheng\\grid_10000_1e-4\\run0', 1, 0.6605816004704124), ('E:\\codex_experiments\\Playground\\pgnd_b_resubmit_20261105\\rerun_twoleg_early\\drl_v3\\cheng\\grid_10000_1e-4\\run0', 2, 0.6121851713415459), ('E:\\codex_experiments\\Playground\\pgnd_b_resubmit_20261105\\rerun_twoleg_early\\drl_v3\\cheng\\grid_10000_1e-4\\run0', 3, 0.648859126508848), ('E:\\codex_experiments\\Playground\\pgnd_b_resubmit_20261105\\rerun_twoleg_early\\drl_v3\\cheng\\grid_10000_1e-4\\run0', 4, 0.4397690351744597), ('E:\\codex_experiments\\Playground\\pgnd_b_resubmit_20261105\\rerun_twoleg_early\\drl_v3\\cheng\\grid_10000_1e-4\\run0', 5, 0.28119536666543105)]

@@ -1,0 +1,35 @@
+{
+ "seed": 404,
+ "level": "L5",
+ "n_jobs": 4,
+ "objective": "makespan",
+ "pref_index": 1,
+ "lookahead": {
+  "value": 318.0,
+  "feasible": 1.0,
+  "wall_s": 0.01,
+  "route_bad": 0,
+  "timing_bad": 0
+ },
+ "pgnd": {
+  "value": 278.0,
+  "feasible": 1.0,
+  "wall_s": 0.53,
+  "route_bad": 0,
+  "timing_bad": 0
+ },
+ "cpsat": {
+  "status": "OPTIMAL",
+  "wall_s": 39.29,
+  "n_ops": 20,
+  "horizon": 3685,
+  "objective": 218.0,
+  "bound": 218.0,
+  "sim_value": 218.0,
+  "sim_feasible": 1.0,
+  "violations": {},
+  "route_bad": 0,
+  "timing_bad": 0,
+  "route_msgs": []
+ }
+}

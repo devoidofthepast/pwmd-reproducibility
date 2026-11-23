@@ -1,0 +1,64 @@
+{
+  "protocol": "PGND-V4",
+  "train_seeds": [
+    600,
+    601,
+    602,
+    603,
+    604
+  ],
+  "groups": 5250,
+  "rows": 76306,
+  "epochs": 120,
+  "groups_per_batch": 64,
+  "random_states": [
+    320,
+    321,
+    322,
+    323,
+    324
+  ],
+  "cuda": true,
+  "objective_names": [
+    "makespan",
+    "tardiness",
+    "energy",
+    "route_pressure",
+    "event_exposure_pressure"
+  ],
+  "objective_scales_sha256": "851ef496204dd3b81291d2864b64da634c9eb8481908b8274bf6dd3603713e52",
+  "objective_scale_source_sha256": "5459298b474e2f6c0a447c516004f164f18fde2620f83435affb06907721171c",
+  "label_manifest_sha256": "f7b741421087ee51d490cdd738a5bd8070f1a0d4f22b034563737a0a12908302",
+  "members": [
+    {
+      "random_state": 320,
+      "final_loss": 0.6915170026112751,
+      "wall_seconds": 194.0664990999503,
+      "model_path": "E:\\codex_experiments\\Playground\\pgnd_b_resubmit_20261105\\rerun_twoleg_early\\models_physics_train_600_604_v3\\pgnd_v4_member_320.pt"
+    },
+    {
+      "random_state": 321,
+      "final_loss": 0.6745609030666122,
+      "wall_seconds": 187.70436810003594,
+      "model_path": "E:\\codex_experiments\\Playground\\pgnd_b_resubmit_20261105\\rerun_twoleg_early\\models_physics_train_600_604_v3\\pgnd_v4_member_321.pt"
+    },
+    {
+      "random_state": 322,
+      "final_loss": 0.6763304335525236,
+      "wall_seconds": 198.04171530005988,
+      "model_path": "E:\\codex_experiments\\Playground\\pgnd_b_resubmit_20261105\\rerun_twoleg_early\\models_physics_train_600_604_v3\\pgnd_v4_member_322.pt"
+    },
+    {
+      "random_state": 323,
+      "final_loss": 0.691506154386394,
+      "wall_seconds": 189.92763509997167,
+      "model_path": "E:\\codex_experiments\\Playground\\pgnd_b_resubmit_20261105\\rerun_twoleg_early\\models_physics_train_600_604_v3\\pgnd_v4_member_323.pt"
+    },
+    {
+      "random_state": 324,
+      "final_loss": 0.6696720065840756,
+      "wall_seconds": 191.0433404999785,
+      "model_path": "E:\\codex_experiments\\Playground\\pgnd_b_resubmit_20261105\\rerun_twoleg_early\\models_physics_train_600_604_v3\\pgnd_v4_member_324.pt"
+    }
+  ]
+}

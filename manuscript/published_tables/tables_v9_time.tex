@@ -1,0 +1,42 @@
+\begin{table*}
+\centering
+\begin{threeparttable}
+\caption{Mean computing time per case (s).}
+\label{tab:v9-time}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llrrrr@{}}
+\toprule
+Group & Method & Synthetic & Mk1 & Edata7 & Larger \\
+\midrule
+Dispatching rules & G-ECT & 0.023 & 0.053 & 0.036 & 0.440 \\
+ & G-EST & 0.019 & 0.033 & 0.025 & 0.383 \\
+ & MWKR-EAT & 0.009 & 0.013 & 0.013 & 0.062 \\
+ & SPT & 0.012 & 0.022 & 0.014 & 0.138 \\
+ & EDD & 0.012 & 0.020 & 0.014 & 0.135 \\
+ & FIFO & 0.012 & 0.021 & 0.014 & 0.135 \\
+ & MWKR & 0.015 & 0.025 & 0.017 & 0.185 \\
+ & Random & 0.013 & 0.026 & 0.016 & 0.180 \\
+\midrule
+DRL-based methods & DANIEL & 0.129 & 0.157 & 0.145 & 0.467 \\
+ & DRL-S & 0.108 & 0.150 & 0.131 & 0.741 \\
+ & HGT & 0.421 & 0.660 & 0.516 & 4.70 \\
+ & DQN & 0.017 & 0.023 & 0.021 & 0.081 \\
+\midrule
+Evolutionary algorithms & GA & 108.7 & -- & -- & -- \\
+ & NSGA-II & 107.7 & -- & -- & -- \\
+ & NSGA-III & 106.9 & -- & -- & -- \\
+ & MOEA/D & 106.4 & -- & -- & -- \\
+\midrule
+Proposed & w/o certificate & 0.289 & 0.381 & 0.282 & 4.78 \\
+ & \pgnd{} & 10.0 & 26.8 & 10.0 & 551.0 \\
+\midrule
+\multicolumn{2}{@{}l}{\pgnd{}, mean time per decision} & 0.223 & 0.473 & 0.194 & 4.11 \\
+\multicolumn{2}{@{}l}{\pgnd{}, longest decision} & 1.23 & 4.29 & 1.24 & 37.5 \\
+\bottomrule
+\end{tabular*}
+\begin{tablenotes}\footnotesize
+\item One thread of an Intel Core i9-13900H CPU, without the GPU, on the first two seeds of each test set (48 cases per set). The evolutionary algorithms are run on the synthetic set only, and their time is taken from the test runs on seeds 800--809, where it is determined by the budget of 40\,s per re-optimization. Each case of the evolutionary algorithms is also run in a single process with one thread.
+\end{tablenotes}
+\end{threeparttable}
+\end{table*}

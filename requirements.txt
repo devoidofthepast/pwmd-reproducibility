@@ -1,0 +1,8 @@
+numpy
+torch==2.5.1
+ortools==9.15.6755
+scipy
+scikit-learn
+pymoo==0.6.2
+matplotlib
+psutil

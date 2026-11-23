@@ -1,0 +1,11 @@
+== 4 jobs, 60 cases, ops 14-21
+  status {'OPTIMAL': 55, 'FEASIBLE': 5} optimal share 0.917 wall mean 52.0 max 300.13
+  checks: simulator-infeasible CP-SAT 0 value mismatch 0 method below proven optimum [] method infeasible []
+  makespan  lookahead gap to best  50.88% (median  47.45, max  93.21), to bound  50.88%, at optimum 0/20
+  makespan  pgnd      gap to best  29.19% (median  27.93, max  54.55), to bound  29.19%, at optimum 0/20
+  makespan  share of lookahead gap closed by PGND: mean 43.1%
+  energy    lookahead gap to best  14.74% (median  14.72, max  25.34), to bound  14.74%, at optimum 0/20
+  energy    pgnd      gap to best   8.21% (median   7.75, max  19.30), to bound   8.21%, at optimum 0/20
+  energy    share of lookahead gap closed by PGND: mean 39.5%
+  tardiness lookahead mean excess 151.95 time units, at optimum 0/20, optimum mean 175.45
+  tardiness pgnd      mean excess  78.90 time units, at optimum 0/20, optimum mean 175.45

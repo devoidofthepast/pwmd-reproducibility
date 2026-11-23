@@ -1,0 +1,53 @@
+\begin{table*}
+\centering
+\begin{threeparttable}
+\caption{Main notation.}
+\label{tab:notation}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabularx}{\textwidth}{@{}l>{\raggedright\arraybackslash}X@{}}
+\toprule
+Symbol & Description \\
+\midrule
+\multicolumn{2}{@{}l}{\emph{Problem}} \\
+$\mathcal{J},\mathcal{M},\mathcal{V}$ & Sets of jobs, machines, and AGVs \\
+$G=(\mathcal{N},\mathcal{E})$ & Path graph with nodes $\mathcal{N}$ and edges $\mathcal{E}$ \\
+$O_{ji}$, $\mathcal{M}_{ji}$ & $i$-th operation of job $j$ and its eligible machines \\
+$p_{jim}$, $e_{jim}$ & Processing time and energy of $O_{ji}$ on machine $m$ \\
+$r_j$, $d_j$, $C_j$ & Release time, due date, and completion time of job $j$ \\
+$s_v$, $c_v$ & Speed and energy rate of AGV $v$ \\
+$\ell_e$, $\kappa_e$ & Length and capacity of edge $e$ \\
+$x_{jim}$, $y_{jiv}$ & Machine and AGV assignment variables \\
+$S_{ji}$, $C_{ji}$ & Processing start and completion of $O_{ji}$ \\
+$TSE_{ji}$, $ETE_{ji}$ & Start and end of the empty leg of the transport task of $O_{ji}$ \\
+$TSL_{ji}$, $ETL_{ji}$ & Start and end of the loaded leg of the transport task of $O_{ji}$ \\
+$R^{e}_{ji}$, $R^{l}_{ji}$ & Routes of the empty and loaded legs \\
+$\lambda^{e}_{jir}$, $\lambda^{l}_{jir}$ & Route selection variables of the empty and loaded legs \\
+$\zeta^{v}_{0,ji}$, $\zeta^{v}_{j'i',ji}$ & First-task and immediate-predecessor variables of AGV $v$ \\
+$n_0$, $\eta_m$, $\eta^{p}_{ji}$ & Depot node, node of machine $m$, and pickup node of $O_{ji}$ \\
+$f_1,\dots,f_5$ & Makespan, tardiness, energy, path pressure, and stability pressure \\
+$E_{\mathrm{path}}$, $E_{\mathrm{stab}}$ & Path pressure and stability pressure \\
+$\mu$, $\omega$ & Transport move and dynamic event \\
+$\tau_\omega$, $\delta_\omega$ & Occurrence time and duration of event $\omega$ \\
+$H$ & Event-proximity horizon \\
+$\beta_e$ & Blockage probability of edge $e$ \\
+$\mathrm{sev}(\omega)$ & Severity of event $\omega$ \\
+\multicolumn{2}{@{}l}{\emph{Method}} \\
+$s_t$, $a_t=(o_t,m_t,v_t,r_t)$ & State and joint action (operation, machine, AGV, route) at step $t$ \\
+$\mathcal{C}_t$ & Candidate set at step $t$, one joint action per operation-machine pair \\
+$\mathbf{w}$ & Preference vector over the five objectives \\
+$V(\sigma,\mathbf{w})$ & Normalized preference-weighted objective of schedule $\sigma$ \\
+$q_l$ & Normalization scale of objective $l$ \\
+$\Delta_t(a)$ & Advantage label of candidate $a$ over the base action \\
+$o_t^{\mathrm{base}}$, $a_t^{\mathrm{base}}$ & Base operation and completed base action \\
+$\mathcal{P}_t$, $k$ & Nominations of the ensemble and their number \\
+$\bar{u}(a)$ & Ensemble-mean score of candidate $a$ \\
+$\pi^{\mathrm{cont}}$ & Continuation policy used in branch rollouts \\
+$\Omega_t$, $K$ & Event scenarios at step $t$ and their number \\
+$\hat{V}_t(a)$ & Mean rollout value of action $a$ over $\Omega_t$ \\
+$M$ & Relative acceptance margin \\
+$U(\cdot)$ & State-update operator \\
+\bottomrule
+\end{tabularx}
+\end{threeparttable}
+\end{table*}

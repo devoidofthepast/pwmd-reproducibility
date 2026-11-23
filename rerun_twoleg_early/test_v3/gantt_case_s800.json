@@ -1,0 +1,1977 @@
+{
+ "set": "syn",
+ "seed": 800,
+ "level": "L4",
+ "mode": "raw",
+ "pref": 0,
+ "schedules": {
+  "rule-lookahead": {
+   "value": 0.4030548112329121,
+   "operations": [
+    {
+     "job": "J2",
+     "op": 0,
+     "machine": "M0",
+     "start": 1,
+     "end": 4
+    },
+    {
+     "job": "J3",
+     "op": 0,
+     "machine": "M0",
+     "start": 4,
+     "end": 19
+    },
+    {
+     "job": "J5",
+     "op": 0,
+     "machine": "M0",
+     "start": 19,
+     "end": 41
+    },
+    {
+     "job": "J8",
+     "op": 0,
+     "machine": "M0",
+     "start": 41,
+     "end": 57
+    },
+    {
+     "job": "J9",
+     "op": 0,
+     "machine": "M1",
+     "start": 9,
+     "end": 20
+    },
+    {
+     "job": "J0",
+     "op": 0,
+     "machine": "M1",
+     "start": 22,
+     "end": 32
+    },
+    {
+     "job": "J3",
+     "op": 1,
+     "machine": "M0",
+     "start": 57,
+     "end": 65
+    },
+    {
+     "job": "J9",
+     "op": 1,
+     "machine": "M3",
+     "start": 32,
+     "end": 52
+    },
+    {
+     "job": "J0",
+     "op": 1,
+     "machine": "M1",
+     "start": 45,
+     "end": 65
+    },
+    {
+     "job": "J1",
+     "op": 0,
+     "machine": "M1",
+     "start": 65,
+     "end": 75
+    },
+    {
+     "job": "J9",
+     "op": 2,
+     "machine": "M3",
+     "start": 81,
+     "end": 108
+    },
+    {
+     "job": "J0",
+     "op": 2,
+     "machine": "M1",
+     "start": 75,
+     "end": 87
+    },
+    {
+     "job": "J1",
+     "op": 1,
+     "machine": "M1",
+     "start": 87,
+     "end": 109
+    },
+    {
+     "job": "J0",
+     "op": 3,
+     "machine": "M1",
+     "start": 109,
+     "end": 117
+    },
+    {
+     "job": "J3",
+     "op": 2,
+     "machine": "M0",
+     "start": 102,
+     "end": 120
+    },
+    {
+     "job": "J9",
+     "op": 3,
+     "machine": "M2",
+     "start": 114,
+     "end": 128
+    },
+    {
+     "job": "J6",
+     "op": 0,
+     "machine": "M1",
+     "start": 117,
+     "end": 122
+    },
+    {
+     "job": "J6",
+     "op": 1,
+     "machine": "M1",
+     "start": 123,
+     "end": 127
+    },
+    {
+     "job": "J3",
+     "op": 3,
+     "machine": "M0",
+     "start": 137,
+     "end": 147
+    },
+    {
+     "job": "J6",
+     "op": 2,
+     "machine": "M1",
+     "start": 128,
+     "end": 149
+    },
+    {
+     "job": "J9",
+     "op": 4,
+     "machine": "M2",
+     "start": 135,
+     "end": 161
+    },
+    {
+     "job": "J7",
+     "op": 0,
+     "machine": "M1",
+     "start": 150,
+     "end": 164
+    },
+    {
+     "job": "J6",
+     "op": 3,
+     "machine": "M2",
+     "start": 164,
+     "end": 168
+    },
+    {
+     "job": "J1",
+     "op": 2,
+     "machine": "M4",
+     "start": 159,
+     "end": 182
+    },
+    {
+     "job": "J6",
+     "op": 4,
+     "machine": "M2",
+     "start": 169,
+     "end": 177
+    },
+    {
+     "job": "J8",
+     "op": 1,
+     "machine": "M1",
+     "start": 177,
+     "end": 188
+    },
+    {
+     "job": "J7",
+     "op": 1,
+     "machine": "M2",
+     "start": 183,
+     "end": 192
+    },
+    {
+     "job": "J8",
+     "op": 2,
+     "machine": "M1",
+     "start": 189,
+     "end": 208
+    },
+    {
+     "job": "J1",
+     "op": 3,
+     "machine": "M4",
+     "start": 197,
+     "end": 219
+    },
+    {
+     "job": "J7",
+     "op": 2,
+     "machine": "M1",
+     "start": 217,
+     "end": 236
+    },
+    {
+     "job": "J1",
+     "op": 4,
+     "machine": "M4",
+     "start": 220,
+     "end": 238
+    },
+    {
+     "job": "J8",
+     "op": 3,
+     "machine": "M2",
+     "start": 231,
+     "end": 255
+    },
+    {
+     "job": "J7",
+     "op": 3,
+     "machine": "M1",
+     "start": 246,
+     "end": 252
+    },
+    {
+     "job": "J2",
+     "op": 1,
+     "machine": "M4",
+     "start": 246,
+     "end": 267
+    },
+    {
+     "job": "J3",
+     "op": 4,
+     "machine": "M2",
+     "start": 270,
+     "end": 282
+    },
+    {
+     "job": "J2",
+     "op": 2,
+     "machine": "M0",
+     "start": 296,
+     "end": 299
+    },
+    {
+     "job": "J4",
+     "op": 0,
+     "machine": "M4",
+     "start": 309,
+     "end": 320
+    },
+    {
+     "job": "J5",
+     "op": 1,
+     "machine": "M4",
+     "start": 320,
+     "end": 337
+    },
+    {
+     "job": "J4",
+     "op": 1,
+     "machine": "M2",
+     "start": 333,
+     "end": 349
+    },
+    {
+     "job": "J5",
+     "op": 2,
+     "machine": "M3",
+     "start": 354,
+     "end": 364
+    },
+    {
+     "job": "J4",
+     "op": 2,
+     "machine": "M3",
+     "start": 364,
+     "end": 371
+    },
+    {
+     "job": "J5",
+     "op": 3,
+     "machine": "M2",
+     "start": 370,
+     "end": 380
+    },
+    {
+     "job": "J5",
+     "op": 4,
+     "machine": "M2",
+     "start": 381,
+     "end": 398
+    },
+    {
+     "job": "J2",
+     "op": 3,
+     "machine": "M4",
+     "start": 405,
+     "end": 414
+    },
+    {
+     "job": "J2",
+     "op": 4,
+     "machine": "M3",
+     "start": 421,
+     "end": 433
+    }
+   ],
+   "transports": [
+    {
+     "move": "T0",
+     "job": "J2",
+     "agv": "A0",
+     "start": 0,
+     "end": 1,
+     "frm": "N0",
+     "to": "N0",
+     "edges": [],
+     "empty_end": 0,
+     "loaded_start": 0
+    },
+    {
+     "move": "T1",
+     "job": "J3",
+     "agv": "A0",
+     "start": 1,
+     "end": 2,
+     "frm": "N0",
+     "to": "N0",
+     "edges": [],
+     "empty_end": 1,
+     "loaded_start": 1
+    },
+    {
+     "move": "T2",
+     "job": "J5",
+     "agv": "A0",
+     "start": 2,
+     "end": 3,
+     "frm": "N0",
+     "to": "N0",
+     "edges": [],
+     "empty_end": 2,
+     "loaded_start": 2
+    },
+    {
+     "move": "T3",
+     "job": "J8",
+     "agv": "A0",
+     "start": 3,
+     "end": 4,
+     "frm": "N0",
+     "to": "N0",
+     "edges": [],
+     "empty_end": 3,
+     "loaded_start": 3
+    },
+    {
+     "move": "T4",
+     "job": "J9",
+     "agv": "A0",
+     "start": 4,
+     "end": 9,
+     "frm": "N0",
+     "to": "N1",
+     "edges": [
+      "E0"
+     ],
+     "empty_end": 4,
+     "loaded_start": 4
+    },
+    {
+     "move": "T5",
+     "job": "J0",
+     "agv": "A1",
+     "start": 0,
+     "end": 22,
+     "frm": "N0",
+     "to": "N1",
+     "edges": [
+      "E0"
+     ],
+     "empty_end": 0,
+     "loaded_start": 9
+    },
+    {
+     "move": "T6",
+     "job": "J3",
+     "agv": "A1",
+     "start": 22,
+     "end": 36,
+     "frm": "N1",
+     "to": "N0",
+     "edges": [
+      "E0"
+     ],
+     "empty_end": 35,
+     "loaded_start": 35
+    },
+    {
+     "move": "T7",
+     "job": "J9",
+     "agv": "A0",
+     "start": 9,
+     "end": 32,
+     "frm": "N1",
+     "to": "N3",
+     "edges": [
+      "E1",
+      "E2"
+     ],
+     "empty_end": 9,
+     "loaded_start": 20
+    },
+    {
+     "move": "T8",
+     "job": "J0",
+     "agv": "A0",
+     "start": 32,
+     "end": 45,
+     "frm": "N3",
+     "to": "N1",
+     "edges": [
+      "E2",
+      "E1"
+     ],
+     "empty_end": 44,
+     "loaded_start": 44
+    },
+    {
+     "move": "T9",
+     "job": "J1",
+     "agv": "A1",
+     "start": 36,
+     "end": 49,
+     "frm": "N0",
+     "to": "N1",
+     "edges": [
+      "E0"
+     ],
+     "empty_end": 36,
+     "loaded_start": 36
+    },
+    {
+     "move": "T10",
+     "job": "J9",
+     "agv": "A0",
+     "start": 68,
+     "end": 81,
+     "frm": "N1",
+     "to": "N3",
+     "edges": [
+      "E1",
+      "E2"
+     ],
+     "empty_end": 80,
+     "loaded_start": 80
+    },
+    {
+     "move": "T11",
+     "job": "J0",
+     "agv": "A1",
+     "start": 49,
+     "end": 66,
+     "frm": "N1",
+     "to": "N1",
+     "edges": [],
+     "empty_end": 49,
+     "loaded_start": 65
+    },
+    {
+     "move": "T12",
+     "job": "J1",
+     "agv": "A1",
+     "start": 66,
+     "end": 76,
+     "frm": "N1",
+     "to": "N1",
+     "edges": [],
+     "empty_end": 66,
+     "loaded_start": 75
+    },
+    {
+     "move": "T13",
+     "job": "J0",
+     "agv": "A1",
+     "start": 76,
+     "end": 88,
+     "frm": "N1",
+     "to": "N1",
+     "edges": [],
+     "empty_end": 76,
+     "loaded_start": 87
+    },
+    {
+     "move": "T14",
+     "job": "J3",
+     "agv": "A1",
+     "start": 88,
+     "end": 102,
+     "frm": "N1",
+     "to": "N0",
+     "edges": [
+      "E0"
+     ],
+     "empty_end": 101,
+     "loaded_start": 101
+    },
+    {
+     "move": "T15",
+     "job": "J9",
+     "agv": "A0",
+     "start": 81,
+     "end": 114,
+     "frm": "N3",
+     "to": "N2",
+     "edges": [
+      "E2"
+     ],
+     "empty_end": 81,
+     "loaded_start": 108
+    },
+    {
+     "move": "T16",
+     "job": "J6",
+     "agv": "A1",
+     "start": 102,
+     "end": 115,
+     "frm": "N0",
+     "to": "N1",
+     "edges": [
+      "E0"
+     ],
+     "empty_end": 102,
+     "loaded_start": 102
+    },
+    {
+     "move": "T17",
+     "job": "J6",
+     "agv": "A1",
+     "start": 115,
+     "end": 123,
+     "frm": "N1",
+     "to": "N1",
+     "edges": [],
+     "empty_end": 115,
+     "loaded_start": 122
+    },
+    {
+     "move": "T18",
+     "job": "J3",
+     "agv": "A1",
+     "start": 123,
+     "end": 137,
+     "frm": "N1",
+     "to": "N0",
+     "edges": [
+      "E0"
+     ],
+     "empty_end": 136,
+     "loaded_start": 136
+    },
+    {
+     "move": "T19",
+     "job": "J6",
+     "agv": "A0",
+     "start": 114,
+     "end": 128,
+     "frm": "N2",
+     "to": "N1",
+     "edges": [
+      "E1"
+     ],
+     "empty_end": 120,
+     "loaded_start": 127
+    },
+    {
+     "move": "T20",
+     "job": "J9",
+     "agv": "A0",
+     "start": 128,
+     "end": 135,
+     "frm": "N1",
+     "to": "N2",
+     "edges": [
+      "E1"
+     ],
+     "empty_end": 134,
+     "loaded_start": 134
+    },
+    {
+     "move": "T21",
+     "job": "J7",
+     "agv": "A1",
+     "start": 137,
+     "end": 150,
+     "frm": "N0",
+     "to": "N1",
+     "edges": [
+      "E0"
+     ],
+     "empty_end": 137,
+     "loaded_start": 137
+    },
+    {
+     "move": "T22",
+     "job": "J6",
+     "agv": "A1",
+     "start": 150,
+     "end": 164,
+     "frm": "N1",
+     "to": "N2",
+     "edges": [
+      "E1"
+     ],
+     "empty_end": 150,
+     "loaded_start": 150
+    },
+    {
+     "move": "T23",
+     "job": "J1",
+     "agv": "A0",
+     "start": 135,
+     "end": 159,
+     "frm": "N2",
+     "to": "N4",
+     "edges": [
+      "E1",
+      "E1",
+      "E2",
+      "E3"
+     ],
+     "empty_end": 141,
+     "loaded_start": 141
+    },
+    {
+     "move": "T24",
+     "job": "J6",
+     "agv": "A1",
+     "start": 164,
+     "end": 169,
+     "frm": "N2",
+     "to": "N2",
+     "edges": [],
+     "empty_end": 164,
+     "loaded_start": 168
+    },
+    {
+     "move": "T25",
+     "job": "J8",
+     "agv": "A0",
+     "start": 159,
+     "end": 177,
+     "frm": "N4",
+     "to": "N1",
+     "edges": [
+      "E4",
+      "E9",
+      "E0"
+     ],
+     "empty_end": 172,
+     "loaded_start": 172
+    },
+    {
+     "move": "T26",
+     "job": "J7",
+     "agv": "A0",
+     "start": 177,
+     "end": 183,
+     "frm": "N1",
+     "to": "N2",
+     "edges": [
+      "E1"
+     ],
+     "empty_end": 177,
+     "loaded_start": 177
+    },
+    {
+     "move": "T27",
+     "job": "J8",
+     "agv": "A1",
+     "start": 169,
+     "end": 189,
+     "frm": "N2",
+     "to": "N1",
+     "edges": [
+      "E1"
+     ],
+     "empty_end": 183,
+     "loaded_start": 188
+    },
+    {
+     "move": "T28",
+     "job": "J1",
+     "agv": "A0",
+     "start": 183,
+     "end": 197,
+     "frm": "N2",
+     "to": "N4",
+     "edges": [
+      "E2",
+      "E3"
+     ],
+     "empty_end": 196,
+     "loaded_start": 196
+    },
+    {
+     "move": "T29",
+     "job": "J7",
+     "agv": "A1",
+     "start": 189,
+     "end": 217,
+     "frm": "N1",
+     "to": "N1",
+     "edges": [
+      "E1",
+      "E1"
+     ],
+     "empty_end": 203,
+     "loaded_start": 203
+    },
+    {
+     "move": "T30",
+     "job": "J1",
+     "agv": "A0",
+     "start": 197,
+     "end": 220,
+     "frm": "N4",
+     "to": "N4",
+     "edges": [],
+     "empty_end": 197,
+     "loaded_start": 219
+    },
+    {
+     "move": "T31",
+     "job": "J8",
+     "agv": "A1",
+     "start": 217,
+     "end": 231,
+     "frm": "N1",
+     "to": "N2",
+     "edges": [
+      "E1"
+     ],
+     "empty_end": 217,
+     "loaded_start": 217
+    },
+    {
+     "move": "T32",
+     "job": "J7",
+     "agv": "A1",
+     "start": 231,
+     "end": 246,
+     "frm": "N2",
+     "to": "N1",
+     "edges": [
+      "E1"
+     ],
+     "empty_end": 245,
+     "loaded_start": 245
+    },
+    {
+     "move": "T33",
+     "job": "J2",
+     "agv": "A0",
+     "start": 220,
+     "end": 246,
+     "frm": "N4",
+     "to": "N4",
+     "edges": [
+      "E4",
+      "E9",
+      "E9",
+      "E4"
+     ],
+     "empty_end": 233,
+     "loaded_start": 233
+    },
+    {
+     "move": "T34",
+     "job": "J3",
+     "agv": "A0",
+     "start": 246,
+     "end": 270,
+     "frm": "N4",
+     "to": "N2",
+     "edges": [
+      "E4",
+      "E9",
+      "E0",
+      "E1"
+     ],
+     "empty_end": 259,
+     "loaded_start": 259
+    },
+    {
+     "move": "T35",
+     "job": "J2",
+     "agv": "A0",
+     "start": 270,
+     "end": 296,
+     "frm": "N2",
+     "to": "N0",
+     "edges": [
+      "E2",
+      "E3",
+      "E4",
+      "E9"
+     ],
+     "empty_end": 283,
+     "loaded_start": 283
+    },
+    {
+     "move": "T36",
+     "job": "J4",
+     "agv": "A0",
+     "start": 296,
+     "end": 309,
+     "frm": "N0",
+     "to": "N4",
+     "edges": [
+      "E9",
+      "E4"
+     ],
+     "empty_end": 296,
+     "loaded_start": 296
+    },
+    {
+     "move": "T37",
+     "job": "J5",
+     "agv": "A1",
+     "start": 246,
+     "end": 292,
+     "frm": "N1",
+     "to": "N4",
+     "edges": [
+      "E0",
+      "E9",
+      "E4"
+     ],
+     "empty_end": 259,
+     "loaded_start": 259
+    },
+    {
+     "move": "T38",
+     "job": "J4",
+     "agv": "A0",
+     "start": 309,
+     "end": 333,
+     "frm": "N4",
+     "to": "N2",
+     "edges": [
+      "E3",
+      "E2"
+     ],
+     "empty_end": 309,
+     "loaded_start": 320
+    },
+    {
+     "move": "T39",
+     "job": "J5",
+     "agv": "A1",
+     "start": 292,
+     "end": 354,
+     "frm": "N4",
+     "to": "N3",
+     "edges": [
+      "E3"
+     ],
+     "empty_end": 292,
+     "loaded_start": 337
+    },
+    {
+     "move": "T40",
+     "job": "J4",
+     "agv": "A0",
+     "start": 333,
+     "end": 355,
+     "frm": "N2",
+     "to": "N3",
+     "edges": [
+      "E2"
+     ],
+     "empty_end": 333,
+     "loaded_start": 349
+    },
+    {
+     "move": "T41",
+     "job": "J5",
+     "agv": "A0",
+     "start": 355,
+     "end": 370,
+     "frm": "N3",
+     "to": "N2",
+     "edges": [
+      "E2"
+     ],
+     "empty_end": 355,
+     "loaded_start": 364
+    },
+    {
+     "move": "T42",
+     "job": "J5",
+     "agv": "A0",
+     "start": 370,
+     "end": 381,
+     "frm": "N2",
+     "to": "N2",
+     "edges": [],
+     "empty_end": 370,
+     "loaded_start": 380
+    },
+    {
+     "move": "T43",
+     "job": "J2",
+     "agv": "A0",
+     "start": 381,
+     "end": 405,
+     "frm": "N2",
+     "to": "N4",
+     "edges": [
+      "E1",
+      "E0",
+      "E9",
+      "E4"
+     ],
+     "empty_end": 392,
+     "loaded_start": 392
+    },
+    {
+     "move": "T44",
+     "job": "J2",
+     "agv": "A0",
+     "start": 405,
+     "end": 421,
+     "frm": "N4",
+     "to": "N3",
+     "edges": [
+      "E3"
+     ],
+     "empty_end": 405,
+     "loaded_start": 414
+    }
+   ],
+   "checks": {
+    "route_bad": 0,
+    "timing_bad": 0,
+    "hard_viol": 0,
+    "event_viol": 0
+   }
+  },
+  "pgnd": {
+   "value": 0.3821209958528813,
+   "operations": [
+    {
+     "job": "J3",
+     "op": 0,
+     "machine": "M0",
+     "start": 1,
+     "end": 16
+    },
+    {
+     "job": "J6",
+     "op": 0,
+     "machine": "M1",
+     "start": 6,
+     "end": 11
+    },
+    {
+     "job": "J2",
+     "op": 0,
+     "machine": "M0",
+     "start": 16,
+     "end": 19
+    },
+    {
+     "job": "J5",
+     "op": 0,
+     "machine": "M0",
+     "start": 19,
+     "end": 41
+    },
+    {
+     "job": "J8",
+     "op": 0,
+     "machine": "M0",
+     "start": 41,
+     "end": 57
+    },
+    {
+     "job": "J1",
+     "op": 0,
+     "machine": "M1",
+     "start": 19,
+     "end": 29
+    },
+    {
+     "job": "J6",
+     "op": 1,
+     "machine": "M1",
+     "start": 29,
+     "end": 33
+    },
+    {
+     "job": "J3",
+     "op": 1,
+     "machine": "M0",
+     "start": 57,
+     "end": 65
+    },
+    {
+     "job": "J1",
+     "op": 1,
+     "machine": "M1",
+     "start": 33,
+     "end": 55
+    },
+    {
+     "job": "J6",
+     "op": 2,
+     "machine": "M2",
+     "start": 39,
+     "end": 64
+    },
+    {
+     "job": "J9",
+     "op": 0,
+     "machine": "M1",
+     "start": 55,
+     "end": 66
+    },
+    {
+     "job": "J0",
+     "op": 0,
+     "machine": "M1",
+     "start": 72,
+     "end": 82
+    },
+    {
+     "job": "J6",
+     "op": 3,
+     "machine": "M2",
+     "start": 69,
+     "end": 73
+    },
+    {
+     "job": "J6",
+     "op": 4,
+     "machine": "M2",
+     "start": 74,
+     "end": 82
+    },
+    {
+     "job": "J8",
+     "op": 1,
+     "machine": "M1",
+     "start": 98,
+     "end": 109
+    },
+    {
+     "job": "J0",
+     "op": 1,
+     "machine": "M1",
+     "start": 109,
+     "end": 129
+    },
+    {
+     "job": "J9",
+     "op": 1,
+     "machine": "M3",
+     "start": 92,
+     "end": 112
+    },
+    {
+     "job": "J8",
+     "op": 2,
+     "machine": "M3",
+     "start": 138,
+     "end": 141
+    },
+    {
+     "job": "J9",
+     "op": 2,
+     "machine": "M4",
+     "start": 119,
+     "end": 136
+    },
+    {
+     "job": "J3",
+     "op": 2,
+     "machine": "M0",
+     "start": 133,
+     "end": 151
+    },
+    {
+     "job": "J7",
+     "op": 0,
+     "machine": "M1",
+     "start": 138,
+     "end": 152
+    },
+    {
+     "job": "J0",
+     "op": 2,
+     "machine": "M1",
+     "start": 152,
+     "end": 164
+    },
+    {
+     "job": "J8",
+     "op": 3,
+     "machine": "M3",
+     "start": 142,
+     "end": 155
+    },
+    {
+     "job": "J3",
+     "op": 3,
+     "machine": "M0",
+     "start": 152,
+     "end": 162
+    },
+    {
+     "job": "J9",
+     "op": 3,
+     "machine": "M4",
+     "start": 160,
+     "end": 174
+    },
+    {
+     "job": "J2",
+     "op": 1,
+     "machine": "M2",
+     "start": 163,
+     "end": 179
+    },
+    {
+     "job": "J0",
+     "op": 3,
+     "machine": "M1",
+     "start": 170,
+     "end": 178
+    },
+    {
+     "job": "J9",
+     "op": 4,
+     "machine": "M4",
+     "start": 175,
+     "end": 193
+    },
+    {
+     "job": "J7",
+     "op": 1,
+     "machine": "M2",
+     "start": 179,
+     "end": 188
+    },
+    {
+     "job": "J2",
+     "op": 2,
+     "machine": "M2",
+     "start": 188,
+     "end": 202
+    },
+    {
+     "job": "J7",
+     "op": 2,
+     "machine": "M1",
+     "start": 194,
+     "end": 213
+    },
+    {
+     "job": "J2",
+     "op": 3,
+     "machine": "M2",
+     "start": 203,
+     "end": 222
+    },
+    {
+     "job": "J7",
+     "op": 3,
+     "machine": "M1",
+     "start": 214,
+     "end": 220
+    },
+    {
+     "job": "J2",
+     "op": 4,
+     "machine": "M3",
+     "start": 228,
+     "end": 240
+    },
+    {
+     "job": "J3",
+     "op": 4,
+     "machine": "M2",
+     "start": 236,
+     "end": 248
+    },
+    {
+     "job": "J1",
+     "op": 2,
+     "machine": "M4",
+     "start": 258,
+     "end": 281
+    },
+    {
+     "job": "J1",
+     "op": 3,
+     "machine": "M4",
+     "start": 282,
+     "end": 304
+    },
+    {
+     "job": "J4",
+     "op": 0,
+     "machine": "M4",
+     "start": 308,
+     "end": 319
+    },
+    {
+     "job": "J1",
+     "op": 4,
+     "machine": "M4",
+     "start": 319,
+     "end": 337
+    },
+    {
+     "job": "J4",
+     "op": 1,
+     "machine": "M2",
+     "start": 332,
+     "end": 348
+    },
+    {
+     "job": "J5",
+     "op": 1,
+     "machine": "M4",
+     "start": 337,
+     "end": 354
+    },
+    {
+     "job": "J4",
+     "op": 2,
+     "machine": "M3",
+     "start": 354,
+     "end": 361
+    },
+    {
+     "job": "J5",
+     "op": 2,
+     "machine": "M3",
+     "start": 371,
+     "end": 381
+    },
+    {
+     "job": "J5",
+     "op": 3,
+     "machine": "M2",
+     "start": 387,
+     "end": 397
+    },
+    {
+     "job": "J5",
+     "op": 4,
+     "machine": "M2",
+     "start": 398,
+     "end": 415
+    }
+   ],
+   "transports": [
+    {
+     "move": "T0",
+     "job": "J3",
+     "agv": "A0",
+     "start": 0,
+     "end": 1,
+     "frm": "N0",
+     "to": "N0",
+     "edges": [],
+     "empty_end": 0,
+     "loaded_start": 0
+    },
+    {
+     "move": "T1",
+     "job": "J6",
+     "agv": "A0",
+     "start": 1,
+     "end": 6,
+     "frm": "N0",
+     "to": "N1",
+     "edges": [
+      "E0"
+     ],
+     "empty_end": 1,
+     "loaded_start": 1
+    },
+    {
+     "move": "T2",
+     "job": "J2",
+     "agv": "A1",
+     "start": 0,
+     "end": 1,
+     "frm": "N0",
+     "to": "N0",
+     "edges": [],
+     "empty_end": 0,
+     "loaded_start": 0
+    },
+    {
+     "move": "T3",
+     "job": "J5",
+     "agv": "A1",
+     "start": 1,
+     "end": 2,
+     "frm": "N0",
+     "to": "N0",
+     "edges": [],
+     "empty_end": 1,
+     "loaded_start": 1
+    },
+    {
+     "move": "T4",
+     "job": "J8",
+     "agv": "A1",
+     "start": 2,
+     "end": 3,
+     "frm": "N0",
+     "to": "N0",
+     "edges": [],
+     "empty_end": 2,
+     "loaded_start": 2
+    },
+    {
+     "move": "T5",
+     "job": "J1",
+     "agv": "A1",
+     "start": 3,
+     "end": 19,
+     "frm": "N0",
+     "to": "N1",
+     "edges": [
+      "E0"
+     ],
+     "empty_end": 3,
+     "loaded_start": 6
+    },
+    {
+     "move": "T6",
+     "job": "J6",
+     "agv": "A0",
+     "start": 6,
+     "end": 12,
+     "frm": "N1",
+     "to": "N1",
+     "edges": [],
+     "empty_end": 6,
+     "loaded_start": 11
+    },
+    {
+     "move": "T7",
+     "job": "J3",
+     "agv": "A1",
+     "start": 19,
+     "end": 33,
+     "frm": "N1",
+     "to": "N0",
+     "edges": [
+      "E0"
+     ],
+     "empty_end": 32,
+     "loaded_start": 32
+    },
+    {
+     "move": "T8",
+     "job": "J1",
+     "agv": "A0",
+     "start": 12,
+     "end": 30,
+     "frm": "N1",
+     "to": "N1",
+     "edges": [],
+     "empty_end": 12,
+     "loaded_start": 29
+    },
+    {
+     "move": "T9",
+     "job": "J6",
+     "agv": "A0",
+     "start": 30,
+     "end": 39,
+     "frm": "N1",
+     "to": "N2",
+     "edges": [
+      "E1"
+     ],
+     "empty_end": 30,
+     "loaded_start": 33
+    },
+    {
+     "move": "T10",
+     "job": "J9",
+     "agv": "A1",
+     "start": 33,
+     "end": 46,
+     "frm": "N0",
+     "to": "N1",
+     "edges": [
+      "E0"
+     ],
+     "empty_end": 33,
+     "loaded_start": 33
+    },
+    {
+     "move": "T11",
+     "job": "J0",
+     "agv": "A1",
+     "start": 46,
+     "end": 72,
+     "frm": "N1",
+     "to": "N1",
+     "edges": [
+      "E0",
+      "E0"
+     ],
+     "empty_end": 59,
+     "loaded_start": 59
+    },
+    {
+     "move": "T12",
+     "job": "J6",
+     "agv": "A0",
+     "start": 39,
+     "end": 69,
+     "frm": "N2",
+     "to": "N2",
+     "edges": [],
+     "empty_end": 39,
+     "loaded_start": 68
+    },
+    {
+     "move": "T13",
+     "job": "J6",
+     "agv": "A0",
+     "start": 69,
+     "end": 74,
+     "frm": "N2",
+     "to": "N2",
+     "edges": [],
+     "empty_end": 69,
+     "loaded_start": 73
+    },
+    {
+     "move": "T14",
+     "job": "J8",
+     "agv": "A1",
+     "start": 72,
+     "end": 98,
+     "frm": "N1",
+     "to": "N1",
+     "edges": [
+      "E0",
+      "E0"
+     ],
+     "empty_end": 85,
+     "loaded_start": 85
+    },
+    {
+     "move": "T15",
+     "job": "J0",
+     "agv": "A1",
+     "start": 98,
+     "end": 99,
+     "frm": "N1",
+     "to": "N1",
+     "edges": [],
+     "empty_end": 98,
+     "loaded_start": 98
+    },
+    {
+     "move": "T16",
+     "job": "J9",
+     "agv": "A0",
+     "start": 74,
+     "end": 92,
+     "frm": "N2",
+     "to": "N3",
+     "edges": [
+      "E1",
+      "E1",
+      "E2"
+     ],
+     "empty_end": 80,
+     "loaded_start": 80
+    },
+    {
+     "move": "T17",
+     "job": "J8",
+     "agv": "A1",
+     "start": 99,
+     "end": 138,
+     "frm": "N1",
+     "to": "N3",
+     "edges": [
+      "E1",
+      "E2"
+     ],
+     "empty_end": 99,
+     "loaded_start": 109
+    },
+    {
+     "move": "T18",
+     "job": "J9",
+     "agv": "A0",
+     "start": 92,
+     "end": 119,
+     "frm": "N3",
+     "to": "N4",
+     "edges": [
+      "E3"
+     ],
+     "empty_end": 92,
+     "loaded_start": 112
+    },
+    {
+     "move": "T19",
+     "job": "J3",
+     "agv": "A0",
+     "start": 119,
+     "end": 133,
+     "frm": "N4",
+     "to": "N0",
+     "edges": [
+      "E4",
+      "E9"
+     ],
+     "empty_end": 132,
+     "loaded_start": 132
+    },
+    {
+     "move": "T20",
+     "job": "J7",
+     "agv": "A0",
+     "start": 133,
+     "end": 138,
+     "frm": "N0",
+     "to": "N1",
+     "edges": [
+      "E0"
+     ],
+     "empty_end": 133,
+     "loaded_start": 133
+    },
+    {
+     "move": "T21",
+     "job": "J0",
+     "agv": "A0",
+     "start": 138,
+     "end": 139,
+     "frm": "N1",
+     "to": "N1",
+     "edges": [],
+     "empty_end": 138,
+     "loaded_start": 138
+    },
+    {
+     "move": "T22",
+     "job": "J8",
+     "agv": "A1",
+     "start": 138,
+     "end": 142,
+     "frm": "N3",
+     "to": "N3",
+     "edges": [],
+     "empty_end": 138,
+     "loaded_start": 141
+    },
+    {
+     "move": "T23",
+     "job": "J3",
+     "agv": "A0",
+     "start": 139,
+     "end": 152,
+     "frm": "N1",
+     "to": "N0",
+     "edges": [
+      "E0"
+     ],
+     "empty_end": 144,
+     "loaded_start": 151
+    },
+    {
+     "move": "T24",
+     "job": "J9",
+     "agv": "A1",
+     "start": 142,
+     "end": 160,
+     "frm": "N3",
+     "to": "N4",
+     "edges": [
+      "E3"
+     ],
+     "empty_end": 159,
+     "loaded_start": 159
+    },
+    {
+     "move": "T25",
+     "job": "J2",
+     "agv": "A0",
+     "start": 152,
+     "end": 163,
+     "frm": "N0",
+     "to": "N2",
+     "edges": [
+      "E0",
+      "E1"
+     ],
+     "empty_end": 152,
+     "loaded_start": 152
+    },
+    {
+     "move": "T26",
+     "job": "J0",
+     "agv": "A0",
+     "start": 163,
+     "end": 170,
+     "frm": "N2",
+     "to": "N1",
+     "edges": [
+      "E1"
+     ],
+     "empty_end": 169,
+     "loaded_start": 169
+    },
+    {
+     "move": "T27",
+     "job": "J9",
+     "agv": "A1",
+     "start": 160,
+     "end": 175,
+     "frm": "N4",
+     "to": "N4",
+     "edges": [],
+     "empty_end": 160,
+     "loaded_start": 174
+    },
+    {
+     "move": "T28",
+     "job": "J7",
+     "agv": "A0",
+     "start": 170,
+     "end": 176,
+     "frm": "N1",
+     "to": "N2",
+     "edges": [
+      "E1"
+     ],
+     "empty_end": 170,
+     "loaded_start": 170
+    },
+    {
+     "move": "T29",
+     "job": "J2",
+     "agv": "A0",
+     "start": 176,
+     "end": 180,
+     "frm": "N2",
+     "to": "N2",
+     "edges": [],
+     "empty_end": 176,
+     "loaded_start": 179
+    },
+    {
+     "move": "T30",
+     "job": "J7",
+     "agv": "A0",
+     "start": 180,
+     "end": 194,
+     "frm": "N2",
+     "to": "N1",
+     "edges": [
+      "E1"
+     ],
+     "empty_end": 180,
+     "loaded_start": 188
+    },
+    {
+     "move": "T31",
+     "job": "J2",
+     "agv": "A0",
+     "start": 194,
+     "end": 203,
+     "frm": "N1",
+     "to": "N2",
+     "edges": [
+      "E1"
+     ],
+     "empty_end": 200,
+     "loaded_start": 202
+    },
+    {
+     "move": "T32",
+     "job": "J7",
+     "agv": "A0",
+     "start": 203,
+     "end": 214,
+     "frm": "N2",
+     "to": "N1",
+     "edges": [
+      "E1"
+     ],
+     "empty_end": 209,
+     "loaded_start": 213
+    },
+    {
+     "move": "T33",
+     "job": "J2",
+     "agv": "A0",
+     "start": 214,
+     "end": 228,
+     "frm": "N1",
+     "to": "N3",
+     "edges": [
+      "E1",
+      "E2"
+     ],
+     "empty_end": 220,
+     "loaded_start": 222
+    },
+    {
+     "move": "T34",
+     "job": "J3",
+     "agv": "A1",
+     "start": 175,
+     "end": 236,
+     "frm": "N4",
+     "to": "N2",
+     "edges": [
+      "E4",
+      "E9",
+      "E0",
+      "E1"
+     ],
+     "empty_end": 208,
+     "loaded_start": 209
+    },
+    {
+     "move": "T35",
+     "job": "J1",
+     "agv": "A0",
+     "start": 228,
+     "end": 258,
+     "frm": "N3",
+     "to": "N4",
+     "edges": [
+      "E2",
+      "E1",
+      "E1",
+      "E2",
+      "E3"
+     ],
+     "empty_end": 240,
+     "loaded_start": 240
+    },
+    {
+     "move": "T36",
+     "job": "J1",
+     "agv": "A0",
+     "start": 258,
+     "end": 282,
+     "frm": "N4",
+     "to": "N4",
+     "edges": [],
+     "empty_end": 258,
+     "loaded_start": 281
+    },
+    {
+     "move": "T37",
+     "job": "J4",
+     "agv": "A0",
+     "start": 282,
+     "end": 308,
+     "frm": "N4",
+     "to": "N4",
+     "edges": [
+      "E4",
+      "E9",
+      "E9",
+      "E4"
+     ],
+     "empty_end": 295,
+     "loaded_start": 295
+    },
+    {
+     "move": "T38",
+     "job": "J1",
+     "agv": "A0",
+     "start": 308,
+     "end": 309,
+     "frm": "N4",
+     "to": "N4",
+     "edges": [],
+     "empty_end": 308,
+     "loaded_start": 308
+    },
+    {
+     "move": "T39",
+     "job": "J4",
+     "agv": "A0",
+     "start": 309,
+     "end": 332,
+     "frm": "N4",
+     "to": "N2",
+     "edges": [
+      "E3",
+      "E2"
+     ],
+     "empty_end": 309,
+     "loaded_start": 319
+    },
+    {
+     "move": "T40",
+     "job": "J5",
+     "agv": "A1",
+     "start": 240,
+     "end": 328,
+     "frm": "N2",
+     "to": "N4",
+     "edges": [
+      "E1",
+      "E0",
+      "E9",
+      "E4"
+     ],
+     "empty_end": 267,
+     "loaded_start": 295
+    },
+    {
+     "move": "T41",
+     "job": "J4",
+     "agv": "A0",
+     "start": 332,
+     "end": 354,
+     "frm": "N2",
+     "to": "N3",
+     "edges": [
+      "E2"
+     ],
+     "empty_end": 332,
+     "loaded_start": 348
+    },
+    {
+     "move": "T42",
+     "job": "J5",
+     "agv": "A1",
+     "start": 328,
+     "end": 371,
+     "frm": "N4",
+     "to": "N3",
+     "edges": [
+      "E3"
+     ],
+     "empty_end": 328,
+     "loaded_start": 354
+    },
+    {
+     "move": "T43",
+     "job": "J5",
+     "agv": "A0",
+     "start": 354,
+     "end": 387,
+     "frm": "N3",
+     "to": "N2",
+     "edges": [
+      "E2"
+     ],
+     "empty_end": 354,
+     "loaded_start": 381
+    },
+    {
+     "move": "T44",
+     "job": "J5",
+     "agv": "A0",
+     "start": 387,
+     "end": 398,
+     "frm": "N2",
+     "to": "N2",
+     "edges": [],
+     "empty_end": 387,
+     "loaded_start": 397
+    }
+   ],
+   "checks": {
+    "route_bad": 0,
+    "timing_bad": 0,
+    "hard_viol": 0,
+    "event_viol": 0
+   }
+  }
+ },
+ "events": [
+  {
+   "id": "EV0",
+   "type": "new_job",
+   "entity": "future_job:J10",
+   "time": 30,
+   "duration": 0
+  },
+  {
+   "id": "EV1",
+   "type": "machine_breakdown",
+   "entity": "M3",
+   "time": 15,
+   "duration": 10
+  },
+  {
+   "id": "EV2",
+   "type": "machine_recovery",
+   "entity": "M3",
+   "time": 25,
+   "duration": 0
+  },
+  {
+   "id": "EV3",
+   "type": "route_branch",
+   "entity": "J2_O0",
+   "time": 84,
+   "duration": 0
+  },
+  {
+   "id": "EV4",
+   "type": "quality_rework",
+   "entity": "J7_O0",
+   "time": 42,
+   "duration": 8
+  },
+  {
+   "id": "EV5",
+   "type": "path_blockage",
+   "entity": "E6",
+   "time": 27,
+   "duration": 12
+  },
+  {
+   "id": "EV6",
+   "type": "agv_failure",
+   "entity": "A0",
+   "time": 53,
+   "duration": 15
+  },
+  {
+   "id": "EV7",
+   "type": "congestion_spike",
+   "entity": "E6",
+   "time": 107,
+   "duration": 20
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+\begin{table*}
+\centering
+\begin{threeparttable}
+\caption{Results of the sensitivity analysis of \pgnd{}.}
+\label{tab:v9-sensitivity}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lrrrr@{}}
+\toprule
+Setting & Synthetic & Mk1 & Edata7 & Rollouts per case (synthetic) \\
+\midrule
+\multicolumn{5}{@{}l}{\emph{Scenarios $K$ and nominations $k$ ($M=0.02$)}} \\
+$K=4$, $k=1$ & 13.02\% & 6.92\% & 6.44\% & 322 \\
+$K=4$, $k=2$ & 14.98\% & 9.20\% & 7.88\% & 479 \\
+$K=8$, $k=1$ & 13.91\% & 8.04\% & 6.91\% & 644 \\
+\textbf{$K=8$, $k=2$} & \textbf{15.34\%} & \textbf{10.51\%} & \textbf{8.55\%} & \textbf{960} \\
+\multicolumn{5}{@{}l}{\emph{Acceptance margin $M$ ($K=8$, $k=1$)}} \\
+$M=0$ & 14.41\% & -- & -- & -- \\
+$M=0.002$ & 14.54\% & -- & -- & -- \\
+$M=0.005$ & 13.85\% & -- & -- & -- \\
+$M=0.01$ & 13.72\% & -- & -- & -- \\
+$M=0.02$ & 13.91\% & -- & -- & -- \\
+$M=0.05$ & 10.03\% & -- & -- & -- \\
+$M=0.10$ & 6.74\% & -- & -- & -- \\
+\multicolumn{5}{@{}l}{\emph{Ensemble size and training seeds ($M=0.02$, $K=8$, $k=2$)}} \\
+1 member & 15.98\% & 9.92\% & 5.94\% & -- \\
+3 members & 15.80\% & 9.40\% & 6.76\% & -- \\
+5 training seeds & 14.16\% & 8.46\% & 7.78\% & -- \\
+\multicolumn{5}{@{}l}{\emph{Regime head under 30 mixed preference vectors}} \\
+Head of the largest weight & 12.60\% & -- & -- & -- \\
+Linear combination of pure heads & 12.77\% & -- & -- & -- \\
+\multicolumn{5}{@{}l}{\emph{Event model of the scenarios (synthetic test set, $M=0.02$, $K=8$, $k=2$)}} \\
+Event process of the generator & 16.83\% & -- & -- & -- \\
+Durations $\times0.5$ & 15.91\% & -- & -- & -- \\
+Durations $\times1.5$ & 16.57\% & -- & -- & -- \\
+Event horizon $[5,90]$ & 16.38\% & -- & -- & -- \\
+Event horizon $[5,160]$ & 16.43\% & -- & -- & -- \\
+Event rate $\times0.5$ & 15.93\% & -- & -- & -- \\
+Event rate $\times1.5$ & 16.03\% & -- & -- & -- \\
+\bottomrule
+\end{tabular*}
+\begin{tablenotes}\footnotesize
+\item Improvement over G-ECT on 240 development cases per set, except for the mixed preference vectors, which use 1{,}200 synthetic development cases, and the event model of the scenarios, which uses the 480 synthetic test cases. The selected setting is in bold; it uses 5 members and 20 training seeds.
+\end{tablenotes}
+\end{threeparttable}
+\end{table*}

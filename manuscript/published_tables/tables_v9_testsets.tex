@@ -1,0 +1,26 @@
+\begin{table*}
+\centering
+\begin{threeparttable}
+\caption{Seed allocation of the instance sets.}
+\label{tab:v9-testsets}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabularx}{\textwidth}{@{}llcc>{\raggedright\arraybackslash}X@{}}
+\toprule
+Use & Instances & Seeds & Cases & Methods \\
+\midrule
+Model validation & Synthetic, first four jobs & 400--409 & 60 & CP-SAT (Section~\ref{sec:model-validation}) \\
+Training & Synthetic & 600--619 & 480 & Proposer and DRL-based methods \\
+Development & Synthetic & 630--639 & 240 & Selection of $M$, $K$, and $k$ and of the evolutionary-algorithm budget; sensitivity \\
+Development & Mk1, Edata7 & 610--619 & 480 & Selection of $K$ and $k$; sensitivity \\
+Model selection & Synthetic & 640--649 & 240 & DRL-based methods \\
+Test & Synthetic & 800--819 & 480 & All methods \\
+Test & Mk1, Edata7 & 820--829 & 480 & All except the evolutionary algorithms \\
+Test & 20--22 jobs & 830--839 & 240 & All except the evolutionary algorithms \\
+\bottomrule
+\end{tabularx}
+\begin{tablenotes}\footnotesize
+\item The evolutionary algorithms are run on synthetic seeds 800--809. The ablation variants and the reference with known events are run on the synthetic test set; the variants without the certificate and with the random, ECT, and cost proposers are also run on Mk1 and Edata7, and those without the certificate and with the random and cost proposers on the larger instances. Because the event times are drawn from the seed, the Mk1 and Edata7 development instances with seeds 610--619 share most event times and types with the training instances of the same seeds.
+\end{tablenotes}
+\end{threeparttable}
+\end{table*}

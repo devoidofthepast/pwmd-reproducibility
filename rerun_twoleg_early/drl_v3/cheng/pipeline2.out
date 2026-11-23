@@ -1,0 +1,18 @@
+grid ('3000_1e-4', '3000', '0.0001', 0.5275485177192363)
+grid ('3000_1e-3', '3000', '0.001', 0.5470080772763719)
+grid ('3000_1e-4', '3000', '0.0001', 0.5275485177192363)
+grid ('3000_1e-3', '3000', '0.001', 0.5470080772763719)
+grid ('10000_1e-4', '10000', '0.0001', 0.5418795922656475)
+Traceback (most recent call last):
+  File "E:\codex_experiments\Playground\pgnd_b_resubmit_20261105\rerun_twoleg_early\baselines\cheng_pipeline_v3.py", line 19, in <module>
+    run(["valid", "--models", str(d)], f"grid_{tag}.log")
+  File "E:\codex_experiments\Playground\pgnd_b_resubmit_20261105\rerun_twoleg_early\baselines\cheng_pipeline_v3.py", line 12, in run
+    subprocess.run([sys.executable, str(HERE / "cheng_dqn_v3.py"), *args, "--workers", W], stdout=h, stderr=h, check=True, env=env)
+  File "E:\python\Lib\subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['E:\\python\\python.exe', 'E:\\codex_experiments\\Playground\\pgnd_b_resubmit_20261105\\rerun_twoleg_early\\baselines\\cheng_dqn_v3.py', 'valid', '--models', 'E:\\codex_experiments\\Playground\\pgnd_b_resubmit_20261105\\rerun_twoleg_early\\drl_v3\\cheng\\grid_10000_1e-3', '--workers', '3']' returned non-zero exit status 3221225794.
+grid ('3000_1e-4', '3000', '0.0001', 0.5275485177192363)
+grid ('3000_1e-3', '3000', '0.001', 0.5470080772763719)
+grid ('10000_1e-4', '10000', '0.0001', 0.5418795922656475)
+grid ('10000_1e-3', '10000', '0.001', 0.5276811300437424)
+done ('3000_1e-4', '3000', '0.0001', 0.5275485177192363)
